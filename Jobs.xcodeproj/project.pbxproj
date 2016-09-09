@@ -192,10 +192,9 @@
 				TargetAttributes = {
 					044D3F3B1D39938800332A8C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 5TSJ5VWTTU;
 						DevelopmentTeamName = "Pluralsight, LLC";
 						LastSwiftMigration = 0800;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -356,6 +355,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -377,6 +377,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
