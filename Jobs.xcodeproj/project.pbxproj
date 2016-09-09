@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044636981D82948B0056E2AA /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F4C1D3993E000332A8C /* Dependency.swift */; };
+		044636991D82948B0056E2AA /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F611D3993F600332A8C /* Lock.swift */; };
+		0446369A1D82948B0056E2AA /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F471D3993E000332A8C /* Job.swift */; };
+		0446369B1D82948B0056E2AA /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F4A1D3993E000332A8C /* Condition.swift */; };
+		0446369C1D82948B0056E2AA /* JobType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F601D3993F600332A8C /* JobType.swift */; };
+		0446369D1D82948B0056E2AA /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F491D3993E000332A8C /* Composite.swift */; };
+		0446369E1D82948B0056E2AA /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F631D3993F600332A8C /* Observer.swift */; };
+		0446369F1D82948B0056E2AA /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F4E1D3993E000332A8C /* Errors.swift */; };
+		044636A01D82948B0056E2AA /* MutuallyExclusive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F621D3993F600332A8C /* MutuallyExclusive.swift */; };
+		044636A11D82948B0056E2AA /* BlockObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F481D3993E000332A8C /* BlockObserver.swift */; };
+		044636A21D82948B0056E2AA /* Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F651D3993F600332A8C /* Timeout.swift */; };
+		044636A31D82948B0056E2AA /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F4B1D3993E000332A8C /* Delay.swift */; };
+		044636A41D82948B0056E2AA /* JobState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F5F1D3993F600332A8C /* JobState.swift */; };
+		044636A51D82948B0056E2AA /* JobContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F591D3993EE00332A8C /* JobContext.swift */; };
+		044636A61D82948B0056E2AA /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F641D3993F600332A8C /* Ticket.swift */; };
+		044636A71D82948B0056E2AA /* Job+Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F4F1D3993E000332A8C /* Job+Group.swift */; };
+		044636A81D82948B0056E2AA /* JobQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F5A1D3993EE00332A8C /* JobQueue.swift */; };
+		044636A91D82948B0056E2AA /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F4D1D3993E000332A8C /* Dispatch.swift */; };
+		044636AA1D82948B0056E2AA /* JobQueueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F5B1D3993EE00332A8C /* JobQueueType.swift */; };
+		044636AD1D82948B0056E2AA /* Jobs.h in Headers */ = {isa = PBXBuildFile; fileRef = 044D3F3F1D39938800332A8C /* Jobs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		044D3F411D39938800332A8C /* Jobs.h in Headers */ = {isa = PBXBuildFile; fileRef = 044D3F3F1D39938800332A8C /* Jobs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		044D3F501D3993E000332A8C /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F471D3993E000332A8C /* Job.swift */; };
 		044D3F511D3993E000332A8C /* BlockObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D3F481D3993E000332A8C /* BlockObserver.swift */; };
@@ -30,6 +50,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044636B21D82948B0056E2AA /* Jobs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jobs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		044636B31D82948B0056E2AA /* Jobs copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Jobs copy-Info.plist"; path = "/Users/markschultz/Development/stickers/Jobs/Jobs copy-Info.plist"; sourceTree = "<absolute>"; };
 		044D3F3C1D39938800332A8C /* Jobs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jobs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		044D3F3F1D39938800332A8C /* Jobs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jobs.h; sourceTree = "<group>"; };
 		044D3F401D39938800332A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +77,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		044636AB1D82948B0056E2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		044D3F381D39938800332A8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,6 +99,7 @@
 			children = (
 				044D3F3E1D39938800332A8C /* Jobs */,
 				044D3F3D1D39938800332A8C /* Products */,
+				044636B31D82948B0056E2AA /* Jobs copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				044D3F3C1D39938800332A8C /* Jobs.framework */,
+				044636B21D82948B0056E2AA /* Jobs.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +183,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		044636AC1D82948B0056E2AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044636AD1D82948B0056E2AA /* Jobs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		044D3F391D39938800332A8C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,6 +202,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		044636961D82948B0056E2AA /* Jobs-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044636AF1D82948B0056E2AA /* Build configuration list for PBXNativeTarget "Jobs-iOS" */;
+			buildPhases = (
+				044636971D82948B0056E2AA /* Sources */,
+				044636AB1D82948B0056E2AA /* Frameworks */,
+				044636AC1D82948B0056E2AA /* Headers */,
+				044636AE1D82948B0056E2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jobs-iOS";
+			productName = Jobs;
+			productReference = 044636B21D82948B0056E2AA /* Jobs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		044D3F3B1D39938800332A8C /* Jobs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044D3F441D39938800332A8C /* Build configuration list for PBXNativeTarget "Jobs" */;
@@ -211,11 +268,19 @@
 			projectRoot = "";
 			targets = (
 				044D3F3B1D39938800332A8C /* Jobs */,
+				044636961D82948B0056E2AA /* Jobs-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		044636AE1D82948B0056E2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		044D3F3A1D39938800332A8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,6 +291,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		044636971D82948B0056E2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044636981D82948B0056E2AA /* Dependency.swift in Sources */,
+				044636991D82948B0056E2AA /* Lock.swift in Sources */,
+				0446369A1D82948B0056E2AA /* Job.swift in Sources */,
+				0446369B1D82948B0056E2AA /* Condition.swift in Sources */,
+				0446369C1D82948B0056E2AA /* JobType.swift in Sources */,
+				0446369D1D82948B0056E2AA /* Composite.swift in Sources */,
+				0446369E1D82948B0056E2AA /* Observer.swift in Sources */,
+				0446369F1D82948B0056E2AA /* Errors.swift in Sources */,
+				044636A01D82948B0056E2AA /* MutuallyExclusive.swift in Sources */,
+				044636A11D82948B0056E2AA /* BlockObserver.swift in Sources */,
+				044636A21D82948B0056E2AA /* Timeout.swift in Sources */,
+				044636A31D82948B0056E2AA /* Delay.swift in Sources */,
+				044636A41D82948B0056E2AA /* JobState.swift in Sources */,
+				044636A51D82948B0056E2AA /* JobContext.swift in Sources */,
+				044636A61D82948B0056E2AA /* Ticket.swift in Sources */,
+				044636A71D82948B0056E2AA /* Job+Group.swift in Sources */,
+				044636A81D82948B0056E2AA /* JobQueue.swift in Sources */,
+				044636A91D82948B0056E2AA /* Dispatch.swift in Sources */,
+				044636AA1D82948B0056E2AA /* JobQueueType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		044D3F371D39938800332A8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +346,49 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		044636B01D82948B0056E2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Jobs copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.utahdevelopers.jobs;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = Jobs;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		044636B11D82948B0056E2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Jobs copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.utahdevelopers.jobs;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = Jobs;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		044D3F421D39938800332A8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -297,6 +431,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = Jobs;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -341,6 +476,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = Jobs;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,8 +500,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.utahdevelopers.jobs;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos watchsimulator watchos macosx";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -385,8 +523,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.utahdevelopers.jobs;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos watchsimulator watchos macosx";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -394,6 +534,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		044636AF1D82948B0056E2AA /* Build configuration list for PBXNativeTarget "Jobs-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044636B01D82948B0056E2AA /* Debug */,
+				044636B11D82948B0056E2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		044D3F361D39938800332A8C /* Build configuration list for PBXProject "Jobs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
